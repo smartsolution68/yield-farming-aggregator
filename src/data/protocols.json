@@ -1,0 +1,74 @@
+{
+  "STEADY": [
+    {
+      "id": "aave-usdc",
+      "name": "Aave USDC",
+      "protocol": "Aave",
+      "token": "USDC",
+      "tvl": "2.5B",
+      "tvlValue": 2500000000,
+      "apy": -8.3,
+      "status": "active",
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    }
+  ],
+  "GROWTH": [
+    {
+      "id": "convex-crv",
+      "name": "Convex CRV",
+      "protocol": "Convex",
+      "token": "CRV",
+      "tvl": "1.2B",
+      "tvlValue": 1200000000,
+      "apy": 16.8,
+      "status": "active",
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "beefy-polygon",
+      "name": "Beefy Polygon",
+      "protocol": "Beefy",
+      "token": "MATIC",
+      "tvl": "450.0M",
+      "tvlValue": 450000000,
+      "apy": 45.6,
+      "status": "active",
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    }
+  ],
+  "SURGE": [
+    {
+      "id": "alpha-farm",
+      "name": "Alpha Farm",
+      "protocol": "Alpha",
+      "token": "ALPHA",
+      "tvl": "25.0M",
+      "tvlValue": 25000000,
+      "apy": 60.4,
+      "status": "active",
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "beta-mining",
+      "name": "Beta Mining",
+      "protocol": "Beta",
+      "token": "BETA",
+      "tvl": "12.0M",
+      "tvlValue": 12000000,
+      "apy": 80.9,
+      "status": "active",
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "gamma-pool",
+      "name": "Gamma Pool",
+      "protocol": "Gamma",
+      "token": "GAMMA",
+      "tvl": "8.0M",
+      "tvlValue": 8000000,
+      "apy": 120.2,
+      "status": "active",
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    }
+  ]
+}

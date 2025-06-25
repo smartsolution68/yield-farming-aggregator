@@ -1,0 +1,12 @@
+{
+  "totalValue": 12500.75,
+  "change24h": 12.5,
+  "currentAPY": 18.3,
+  "isOptimized": true,
+  "autoRebalance": {
+    "isActive": true,
+    "lastMoveTime": "2h"
+  },
+  "riskTier": "STEADY"
+}
+

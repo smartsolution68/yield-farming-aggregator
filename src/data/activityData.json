@@ -1,0 +1,58 @@
+{
+  "allActivities": [
+    {
+      "title": "Deposited 1,500 USDC",
+      "description": "Automatically allocated to Aave USDC (18.3% APY)",
+      "details": "Transaction: 0x1a2b3c...def4",
+      "timestamp": "2h ago"
+    },
+    {
+      "title": "Portfolio Auto-Rebalanced",
+      "description": "Moved 500 USDC: Compound (16.2%) → Aave (18.3%)",
+      "details": "Gas saved: $2.40 • Yield improvement: +2.1%",
+      "timestamp": "6h ago"
+    },
+    {
+      "title": "Withdrew 800 DAI",
+      "description": "From Compound DAI pool",
+      "details": "Transaction: 0x5e6f7g...hij8 • Gas used: $1.20",
+      "timestamp": "1d ago"
+    },
+    {
+      "title": "Risk Tier Changed to GROWTH",
+      "description": "Portfolio automatically rebalanced to higher-yield protocols",
+      "details": "Rebalance completed in 3 transactions",
+      "timestamp": "2d ago"
+    },
+    {
+      "title": "Deposited 2,000 USDT",
+      "description": "Split between Curve (60%) and Yearn (40%)",
+      "details": "Transaction: 0x9k10l...mno2 • Optimized allocation",
+      "timestamp": "3d ago"
+    },
+    {
+      "title": "Yield Harvested",
+      "description": "Collected 45.7 USDC from protocol rewards",
+      "details": "Auto-compounded • APY boost: +0.3%",
+      "timestamp": "4d ago"
+    },
+    {
+      "title": "Gas Optimization Alert",
+      "description": "Rebalancing delayed due to high gas prices",
+      "details": "Saved $15.40 in gas fees • Executed during low congestion",
+      "timestamp": "5d ago"
+    },
+    {
+      "title": "Emergency Withdrawal",
+      "description": "Withdrew 1,200 DAI from Maker due to protocol alert",
+      "details": "Transaction: 0x3p4q5r...stu6 • Funds secured",
+      "timestamp": "1w ago"
+    },
+    {
+      "title": "Portfolio Initialized",
+      "description": "Welcome to HyperPool! Initial deposit of 5,000 USDC",
+      "details": "Transaction: 0x7v8w9x...yza0 • Journey started",
+      "timestamp": "2w ago"
+    }
+  ]
+}

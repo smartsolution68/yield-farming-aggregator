@@ -1,0 +1,24 @@
+{
+  "allocations": [
+    {
+      "name": "Aave USDC",
+      "value": 4500.0,
+      "color": "#8b5cf6"
+    },
+    {
+      "name": "Convex CRV",
+      "value": 3200.0,
+      "color": "#10b981"
+    },
+    {
+      "name": "Alpha Farm",
+      "value": 2800.0,
+      "color": "#f59e0b"
+    },
+    {
+      "name": "Available",
+      "value": 2000.0,
+      "color": "#f97316"
+    }
+  ]
+}
