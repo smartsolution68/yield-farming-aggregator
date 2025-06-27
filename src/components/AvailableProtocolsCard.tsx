@@ -20,15 +20,6 @@ const AvailableProtocolsCard: React.FC<AvailableProtocolsCardProps> = ({
     <DashboardContent height={height}>
       {protocols ? (
         <div className="flex flex-col h-full w-full">
-          {/* <div className="flex-shrink-0">
-            <div className="text-theme-quaternary">Available Protocols</div>
-            <div className="text-theme-tertiary">Optimized protocols</div>
-            <br />
-            <ProtocolSwitch
-              selectedProtocol={selectedProtocol}
-              onSelect={onSelectProtocol}
-            />
-          </div> */}
           <div className="text-theme-quaternary">Available Protocols</div>
           <div className="mb-6 text-primary-orange">Optimized</div>
 

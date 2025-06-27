@@ -28,7 +28,6 @@ const Portfolio: React.FC<PortfolioProps> = ({ stakeData, protocol }) => {
               ${stakeData.tvl}
             </div>
             <div className="text-primary-blue text-xl">
-              {/* {stakeData.tvlChange >= 0 ? "+" : ""}${stakeData.tvlChange} ({stakeData.tvlChange / stakeData.tvl * 100 >= 0 ? "+" : ""}{stakeData.tvlChange / stakeData.tvl * 100}%) */}
               {stakeData.tvlChange >= 0 ? "+" : ""}${Number(stakeData.tvlChange).toFixed(3)} ({stakeData.tvlChange / stakeData.tvl * 100 >= 0 ? "+" : ""}{Number(stakeData.tvlChange / stakeData.tvl * 100).toFixed(3)}%)
             </div>
           </div>

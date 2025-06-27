@@ -11,8 +11,6 @@ interface RecentActivityCardProps {
   readonly height?: "sm" | "md" | "lg" | "xl" | "2xl";
 }
 
-
-
 const RecentActivityCard: React.FC<RecentActivityCardProps> = ({
   activities,
   isExpanded,

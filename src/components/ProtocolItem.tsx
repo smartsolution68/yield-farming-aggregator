@@ -25,7 +25,6 @@ const ProtocolItem: React.FC<{ protocol: Protocol }> = ({ protocol }) => {
             TVL: {protocol.tvlUsd}
           </p>
         </div>
-
         <div className="text-right">
           <div className={`text-2xl font-bold ${getApyColor(protocol.baseAPY)}`}>
             {formatApy(protocol.baseAPY)}
