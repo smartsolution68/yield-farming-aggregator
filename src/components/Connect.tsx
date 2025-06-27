@@ -45,7 +45,6 @@ const Connect: React.FC = () => {
           <span className="text-cyan-400">Auto-Yield</span> For{" "}
           <span className="text-orange-400">Degens</span>
         </div>
-        {/* <p className="text-xl text-white mb-6">Drop. Earn. Repeat.</p> */}
         <p className="text-lg text-gray-400 ">
           AI-automated cross-chain yield farming.
         </p>

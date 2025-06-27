@@ -10,16 +10,6 @@ export interface Protocol {
   token: [string];
   apy_7d: number;
   apy_30D: number;
-
-  // id: string;
-  // name: string;
-  // protocol: string;
-  // token: string;
-  // tvl: string;
-  // tvlValue: number;
-  // apy: number;
-  // status: "active" | "inactive" | "maintenance";
-  // lastUpdated: string;
 }
 
 export type ProtocolsByTier = {

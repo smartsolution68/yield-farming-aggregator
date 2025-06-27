@@ -23,6 +23,7 @@ const TopBarInternal: React.FC<TopBarProps> = ({ className }) => {
   useEffect(() => {
     setMounted(true);
   }, []);
+
   // Close dropdown when clicking outside
   const [protocolData, setProtocolData] = useState<Protocol>({
     timestamp: "",
@@ -38,6 +39,7 @@ const TopBarInternal: React.FC<TopBarProps> = ({ className }) => {
     apy_30D: 0
   }
   );
+  
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (

@@ -9,9 +9,6 @@ import { type BaseError, useAccount, useReadContract, useWriteContract, useWaitF
 import { ToastContainer, toast } from 'react-toastify';
 import { formatUnits, parseUnits } from 'viem';
 
-
-
-
 interface ActivityData {
 
   title: string;
@@ -134,48 +131,6 @@ const ManageFunds: React.FC<ManageFundsProps> = ({ sendActivity }) => {
         args: [CONTRACT_ADDRESS, usdcAmount],
       });
       setApproveHash(approveTx);
-
-
-      // if (isApproveConfirmed) {
-      //   console.log("Deposit:", amount);
-
-      //   await writeContractAsync({
-      //     address: CONTRACT_ADDRESS,
-      //     abi: CONTRACT_ABI,
-      //     functionName: 'deposit',
-      //     args: [parseUnits(amount.toString(), 6), address!],
-      //   });
-      //   // 
-      //   if (isDepositConfirmed) {
-      //     setIsShowDepositSuccessModal(true);
-      //     await refetchInitialBalance();
-      //     await refetchAvailableBalance();
-
-      //     // Show Toast When Success
-      //     // toast.success("Successfully Staked", {
-      //     //   autoClose: 3000,
-      //     //   draggable: true,
-      //     //   theme: "dark"
-      //     // })
-      //     const activity: ActivityData = {
-      //       title: `Deposited ${amount.toString()} USDC`,
-      //       description: 'Optimized allocation into AAVE',
-      //       details: `Transaction: ${hash?.toString()}`,
-      //       timestamp: Math.floor(Date.now() / 1000)
-      //     };
-
-      //     sendActivity(activity);
-      //   } else {
-      //     toast.error("Failed to deposit", {
-      //       autoClose: 3000,
-      //       draggable: true,
-      //       theme: "dark"
-      //     })
-      //   }
-
-      // }
-
-
 
     } catch (error) {
       console.error("Deposit failed:", error);

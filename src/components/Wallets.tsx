@@ -45,8 +45,6 @@ const Wallets: React.FC<WalletsProps> = ({onConnectSuccess}) => {
 
   return (
     <div className="h-full flex flex-col">
-      
-
       {/* Wallet Options */}
       <div className="flex-1 flex flex-col">
         <div className="flex flex-col gap-3">
