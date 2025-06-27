@@ -2,7 +2,6 @@
 
 import React from "react";
 
-// import ScrollableContainer from "./ScrollableContainer";
 
 const FAQPage: React.FC = () => {
 
